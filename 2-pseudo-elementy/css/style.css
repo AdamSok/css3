@@ -1,28 +1,9 @@
-body{
-    color: lightgray
+#pierwszy::before{
+    content: "text przed pierwszym paragrafem";
+    color: orange
 }
 
-p{
-    color: green
-}
-
-#kasia{
-    color: red
-}
-
-.lorak{
-    color: blue
-}
-
-ul span {
-    color: sandybrown
-}
-
-li#pierwszy ~ li > a {
-    color: deeppink
-}
-
-
-li#drugi+li > a {
-    color: yellowgreen
+#drugi::after {
+    content: "po drugim paragrafie";
+    color: navy
 }
