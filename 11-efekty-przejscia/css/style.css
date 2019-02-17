@@ -1,34 +1,6 @@
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 20px auto;
-    top: 0px;
-}
-
-#colors {
-    background-color: yellow;
-}
-
-#colors:hover {
-    transition: background-color 3s linear 1s;
-    background-color: deeppink;
-    cursor: not-allowed;
-}
-
-.box-width {
-    width: 150px;
-    height: 150px;
-    margin: 20px auto;
-    top: 50px;
-}
-
-#colors {
-    transition: background-color 3s linear 1s;
-    background-color: rgb(32, 32, 28);
-}
-
-#colors:hover {
-    transition: background-color 3s linear 1s;
-    background-color: rgb(226, 134, 183);
-    cursor: not-allowed;
+#background-img {
+background-color: bisque;
+background-image: url('../img/truskawka.jpg');
+background-repeat: no-repeat;
+ba
 }
