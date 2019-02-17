@@ -1,5 +1,5 @@
 #name:hover{
-    background: aquamarine;
+    background: aquamarine
 }
 
 #name:focus{
@@ -10,8 +10,8 @@
     color: yellowgreen;
 }
 
-.customer:nth-child(3){
-    background-color: lightgoldenrodyellow;
+.customer:nth-child(3) {
+    background-color: palevioletred;
 }
 
 .customer:nth-child(2n){
