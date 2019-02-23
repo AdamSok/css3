@@ -14,3 +14,9 @@
     border:1px dashed red;
     display: flex;
 }
+.ordered-item{
+    order: 2;
+}
+ .piaty{
+     order: 1;
+ }
