@@ -16,6 +16,7 @@ Domyślne kolory 'flex-item' - START
 
 .flex-item:nth-last-of-type(odd) {
     background-color: lightgray;
+    max-height: 150px;
 }
 /* 
 ------------------------------------
@@ -30,13 +31,24 @@ Domyślne kolory 'flex-item' - END
 .container {
     border: 1px dashed red;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    height: 700px ;
 /*    justify-content: flex-end;*/
 /*    justify-content: center;*/
 /*    justify-content: space-between;*/
 /*    justify-content: space-around;*/
-   justify-content: space-evenly;   
-}
+/*    justify-content: space-evenly; 
+   */
+   
+/* algin-content:stretch;
+align-content: center;
+align-content: flex-end;
+align-content: space-around;
+/* align-content: space-between; */
+align-content: stretch;
+} */
+
 
 
 
